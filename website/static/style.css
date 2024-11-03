@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* set a default font */
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901_640.jpg'); /* replace with your image path */
+    background-size: cover; /* make sure the image covers the whole background */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    background-position: center; /* center the image */
+}
+
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow for a modern look */
+    padding: 30px;
+    border: 1px solid #e0e0e0; /* Light border for definition */
+    border-radius: 5px; /* Optional: Small radius for subtle softness */
+}
+
+.wrapper .title {
+    font-size: 26px; /* Slightly larger font size for emphasis */
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333; /* Darker text for improved readability */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px; /* Increased letter spacing for elegance */
+}
+  
+.wrapper .form{
+    width: 100%;
+}
+  
+.wrapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+  
+.wrapper .form .inputfield label{
+     width: 200px;
+     color: black;
+     margin-right: 10px;
+    font-size: 14px;
+}
+
+.check{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.check label{
+    padding: 0px 10px 0px 0px;
+}
+
+.wrapper .form .inputfield .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.wrapper .form .inputfield .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+  
+.wrapper .form .inputfield .custom_select:before{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+  
+.wrapper .form .inputfield .custom_select select{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+}
+
+.wrapper .form .inputfield .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+  
+
+.result p{
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.price-container {
+    margin-top: 10px; /* Space between heading and prices */
+}
+.price {
+    font-size: 1.5em; /* Increase font size */
+    margin: 5px 0; /* Spacing between price lines */
+}
+.lkr {
+    color: #4CAF50; /* Green color for LKR */
+}
+.usd {
+    color: #2196F3; /* Blue color for USD */
+}
+.no-result {
+    color: #f44336; /* Red color for no result message */
+    font-weight: bold; /* Bold text */
+}
+
+  
